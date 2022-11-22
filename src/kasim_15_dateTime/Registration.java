@@ -24,7 +24,7 @@ LocalDate clasini kullanarak bu uc degiskeni bir method icine gonderin ve random
  ArrayListteki userlardan her ayın ilk 10 gününde kaydolanları yazdıran metodu oluşturun.
 
 */
-    Arrays<User> userList=new ArrayList<>();
+    //Arrays<User> userList=new ArrayList<>();
 
     void register(){
         Scanner scan=new Scanner(System.in);
