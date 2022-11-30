@@ -1,10 +1,8 @@
-package kasim_22_okulYonetimi;
+package kasım_22_okulYonetim;
 
 public class Ogrenci extends Kisi{
-
     private String sinif;
     private int ogrNo;
-
 
     public Ogrenci() {
     }
@@ -31,11 +29,12 @@ public class Ogrenci extends Kisi{
         this.ogrNo = ogrNo;
     }
 
+
+
     @Override
     public String toString() {
-        return "Ogrenci{" +
+        return super.toString() +
                 "sinif='" + sinif + '\'' +
-                ", ogrNo=" + ogrNo +
-                '}';
+                ", ogrNo=" + ogrNo ;
     }
 }

@@ -1,4 +1,5 @@
-package kasim_22_okulYonetimi;
+package kasım_22_okulYonetim;
+
 
 public class Kisi {
     private String isim;
@@ -32,6 +33,14 @@ public class Kisi {
         this.soyIsim = soyIsim;
     }
 
+    public String getTcNo() {
+        return tcNo;
+    }
+
+    public void setTcNo(String tcNo) {
+        this.tcNo = tcNo;
+    }
+
     public int getYas() {
         return yas;
     }
@@ -42,11 +51,10 @@ public class Kisi {
 
     @Override
     public String toString() {
-        return "Kisi{" +
+        return
                 "isim='" + isim + '\'' +
-                ", soyIsim='" + soyIsim + '\'' +
-                ", tcNo='" + tcNo + '\'' +
-                ", yas=" + yas +
-                '}';
+                        ", soyIsim='" + soyIsim + '\'' +
+                        ", tcNo='" + tcNo + '\'' +
+                        ", yas=" + yas ;
     }
 }
